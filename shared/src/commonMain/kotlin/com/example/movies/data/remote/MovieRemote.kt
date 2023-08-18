@@ -4,7 +4,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class MovieRemote(
+internal data class MovieRemote(
     val id: Int,
     val title: String,
     val overview: String,
