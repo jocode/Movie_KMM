@@ -46,6 +46,7 @@ struct DetailScreen: View {
                     .frame(maxWidth: .infinity, maxHeight: 40)
                     .padding()
                     .background(.red)
+                    .clipShape(RoundedRectangle(cornerRadius: 8))
                     
                     Text("Release in \(movie.releaseDate)".uppercased())
                     
